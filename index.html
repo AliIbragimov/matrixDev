@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <main>
+        <div class="logo">
+            <img src="./res/logo.svg" alt="">
+            <hr class="borderRadius">
+            <label for="">Наименование<br>Организации</label>
+        </div>
+        <div class="panelMenu">
+            <input type="text" class="borderRadius" id="inputId" placeholder="Ввод номера скважины...">
+            <select class="borderRadius" id="boreholeId">
+                <option value="empty">Месторождение</option>
+                <option value="Аганское">Аганское</option>
+                <option value="Аригольское">Аригольское</option>
+                <option value="Ачимовское">Ачимовское</option>
+                <option value="Ватинское">Ватинское</option>
+                <option value="Восточно-Охтеурское">Восточно-Охтеурское</option>
+                <option value="Западно-Асомкинское">Западно-Асомкинское</option>
+                <option value="Западно-Усть-Балыкское">Западно-Усть-Балыкское</option>
+                <option value="Западно-Чистиное">Западно-Чистиное</option>
+                <option value="Ининское">Ининское</option>
+                <option value="Кетовское">Кетовское</option>
+                <option value="Кысомское">Кысомское</option>
+                <option value="Луговое">Луговое</option>
+                <option value="Максимкинское">Максимкинское</option>
+                <option value="Мыхпайское">Мыхпайское</option>
+                <option value="Ново-Покурское">Ново-Покурское</option>
+                <option value="Островное">Островное</option>
+                <option value="Покамасовское">Покамасовское</option>
+                <option value="Северо-Негусьяхское">Северо-Негусьяхское</option>
+                <option value="Северо-Ореховское">Северо-Ореховское</option>
+                <option value="Северо-Островное">Северо-Островное</option>
+                <option value="Северо-Покурское">Северо-Покурское</option>
+                <option value="Тайлаковское">Тайлаковское</option>
+                <option value="Узунское">Узунское</option>
+                <option value="Чистинное">Чистинное</option>
+                <option value="Южно-Аганское">Южно-Аганское</option>
+                <option value="Южно-Островное">Южно-Островное</option>
+                <option value="Южно-Покамасовское">Южно-Покамасовское</option>
+            </select>
+            <select class="borderRadius" id="matrixId">
+                <option value="empty">Матрица</option>
+                <option value="Снижение дебита">Снижение дебита</option>
+                <option value="ВСП - ЗСП без пакета">ВСП - ЗСП без пакета</option>
+                <option value="ВСП - ЗСП с пакетом">ВСП - ЗСП с пакетом</option>
+                <option value="ВСП - ЗП">ВСП - ЗП</option>
+                <option value="ВСП - R-0">ВСП - R-0</option>
+                <option value="ВСП - Ток хх">ВСП - Ток хх</option>
+                <option value="ВСП - Нет Q">ВСП - Нет Q</option>
+            </select>
+        </div>
+        <div class="buttonContainer">
+            <button class="buttonStart borderRadius" id="buttonStart">Старт</button>
+        </div>
+    </main>
+    <div class="nav-footer">
+        <a href="./page/history.html">
+            <div>
+                <img src="./res/story.svg" alt="">
+                <label>история</label>
+            </div>
+        </a>
+        <a href="./index.html">
+            <div>
+                <img src="./res/martix.svg" alt="">
+                <label>матрица</label>
+            </div>
+        </a>
+        <a href="./page/reglament.pdf">
+            <div>
+                <img src="../res/regulations.svg" alt="">
+                <label>регламент</label>
+            </div>
+        </a>
+        <a href="./page/sop.pdf">
+            <div>
+                <img src="../res/sop.svg" alt="">
+                <label>СОП</label>
+            </div>
+        </a>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

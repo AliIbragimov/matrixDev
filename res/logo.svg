@@ -1,0 +1,14 @@
+<svg width="45.000000" height="45.000000" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip10_282">
+			<rect id="Бесконечный" width="45.000000" height="45.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip10_282)">
+		<path id="path" d="M29.81 20.65L29.81 20.68C29.25 21.1 28.48 20.99 28.06 20.43C27.64 19.87 27.75 19.1 28.31 18.68L28.34 18.69L29.81 20.65ZM15.18 24.34L15.18 24.31C15.74 23.89 16.51 24 16.93 24.56C17.35 25.12 17.24 25.89 16.68 26.31L16.65 26.3L15.18 24.34Z" fill="#000000" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="path" d="M29.06 19.68L32.81 16.87L41.25 22.5L41.25 31.87L31.87 37.5L22.5 31.87L22.5 12.18L12.18 6.56L3.75 12.18L3.75 22.5L12.18 28.12L15.93 25.31" stroke="#5E8BE0" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+</svg>

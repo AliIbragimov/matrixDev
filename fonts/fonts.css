@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'semibold';
+    src: url('./Inter-SemiBold.otf');
+}
+@font-face {
+    font-family: 'medium';
+    src: url('./Inter-Medium.otf');
+}
+@font-face {
+    font-family: 'regular';
+    src: url('./Inter-regular.otf');
+}

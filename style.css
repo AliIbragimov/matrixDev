@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #1E3D58;
+    font-family: 'semibold';
+}
+
+a {
+    all: unset;
+}
+
+html,body {
+    background-color: #E8EEF1;
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 75%;
+}
+
+.borderRadius {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.10);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 36px;
+}
+
+.logo label {
+    color: #5E8BE0;
+}
+
+.logo hr {
+    background-color: #5E8BE0;
+    border: none;
+    width: 1px;
+    height: 35px;
+}
+
+.logo img {
+    width: 42px;
+    height: 42px;
+}
+
+.panelMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.panelMenu input {
+    padding: 10px;
+    width: 240px;
+    height: 30px;
+    border: none;
+    background-color: #fff;
+}
+
+.panelMenu select {
+    width: 260px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    background-color: #fff;
+}
+
+.nav-footer {
+    position: fixed;
+    bottom: -4px;
+    background-color: #5E8BE0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.10);
+}
+
+
+.nav-footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+.nav-footer a {
+    cursor: pointer;
+}
+
+.nav-footer div label {
+    font-family: 'regular';
+    color: #fff;
+    font-size: 12px;
+}
+
+.nav-footer div img {
+    width: 38px;
+    height: 38px;
+}
+
+.nav-footer div:active {
+    background-color: #0f84d25f;
+    transition: 0.3s;
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+.buttonStart {
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #5E8BE0;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'medium';
+}
+
+.buttonStart:active {
+    transition: 0.3s;
+    background-color: #456bb2;
+}
+
+.contentStory {
+    display: flex;
+    width: 88%;
+}
+
+.storyCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 88%;
+    background-color: #fff;
+    margin-top: 26px;
+}
+
+.borehole {
+    position: relative;
+    padding: 20px 0px 0px 0px;
+    width: 97%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.boreholeGreen {
+    border-left: #6A994E solid 12px;
+}
+
+.boreholeRed {
+    border-left: #C1121F solid 12px;
+}
+
+.borehole label {
+    padding-left: 20px;
+}
+
+.numberBorehole {
+    padding-bottom: 20px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.contentStory {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hide {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;   
+    max-height: 0;
+    transition: max-height 0.3s ease;
+}
+
+.active {
+    max-height: 500px;
+    padding-bottom: 20px;
+}
+
+.activeBorehole {
+    height: auto;
+}
